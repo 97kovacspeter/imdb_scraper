@@ -1,6 +1,5 @@
 
 from bs4 import BeautifulSoup
-import filehandler as fh
 import requests
 
 
@@ -15,9 +14,10 @@ def scrape_top(num):
 
     links = [IMDB + a.attrs.get('href')
              for a in soup.select('td.titleColumn a', limit=num)]
-    ratings = [strong.text for strong in soup.select(
-        'td.ratingColumn strong', limit=num)]
-    titles = [a.text for a in soup.select('td.titleColumn a', limit=num)]
+    ratings = [strong.text
+               for strong in soup.select('td.ratingColumn strong', limit=num)]
+    titles = [a.text
+              for a in soup.select('td.titleColumn a', limit=num)]
     votes = [nv.attrs.get('data-value')
              for nv in soup.select('td.posterColumn span[name=nv]', limit=num)]
     ranks = [rk.attrs.get('data-value')
@@ -32,14 +32,17 @@ def scrape_top(num):
             'rank': int(ranks[i])
         }
         movies.append(data)
-    fh.write_file(movies, 'old_ranking_data')
+    return movies
 
 
 def scrape_oscars(movies):
     for movie in movies:
-        r = requests.get(movie['link'])
+        movie['oscars'] = 0
+        r = requests.get(movie['link'] + 'awards')
         soup = BeautifulSoup(r.content, 'html5lib')
-        soup.select
-
-
-scrape_top(20)
+        awards = soup.find_all('span', class_='award_category')
+        if awards:
+            for award in awards:
+                if award.text == 'Oscar' and award.parent.b.text == 'Winner':
+                    movie['oscars'] = int(award.parent['rowspan'])
+    return movies

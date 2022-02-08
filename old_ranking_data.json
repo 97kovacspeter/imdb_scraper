@@ -1,142 +1,162 @@
 [
     {
         "link": "https://www.imdb.com/title/tt0111161/",
+        "oscars": 0,
         "rank": 1,
         "rating": 9.2,
         "title": "A remény rabjai",
-        "votes": 2541764
+        "votes": 2542160
     },
     {
         "link": "https://www.imdb.com/title/tt0068646/",
+        "oscars": 3,
         "rank": 2,
         "rating": 9.1,
         "title": "A keresztapa",
-        "votes": 1748779
+        "votes": 1748994
     },
     {
         "link": "https://www.imdb.com/title/tt0071562/",
+        "oscars": 6,
         "rank": 3,
         "rating": 9.0,
         "title": "A keresztapa II",
-        "votes": 1212899
+        "votes": 1213036
     },
     {
         "link": "https://www.imdb.com/title/tt0468569/",
+        "oscars": 2,
         "rank": 4,
         "rating": 9.0,
         "title": "A sötét lovag",
-        "votes": 2491981
+        "votes": 2492361
     },
     {
         "link": "https://www.imdb.com/title/tt0050083/",
+        "oscars": 0,
         "rank": 5,
         "rating": 8.9,
         "title": "Tizenkét dühös ember",
-        "votes": 751012
+        "votes": 751119
     },
     {
         "link": "https://www.imdb.com/title/tt0108052/",
+        "oscars": 7,
         "rank": 6,
         "rating": 8.9,
         "title": "Schindler listája",
-        "votes": 1297705
+        "votes": 1297851
     },
     {
         "link": "https://www.imdb.com/title/tt0167260/",
+        "oscars": 11,
         "rank": 7,
         "rating": 8.9,
         "title": "A Gyűrűk Ura: A király visszatér",
-        "votes": 1752462
+        "votes": 1752643
     },
     {
         "link": "https://www.imdb.com/title/tt0110912/",
+        "oscars": 1,
         "rank": 8,
         "rating": 8.8,
         "title": "Ponyvaregény",
-        "votes": 1955573
+        "votes": 1955787
     },
     {
         "link": "https://www.imdb.com/title/tt0060196/",
+        "oscars": 0,
         "rank": 9,
         "rating": 8.8,
         "title": "A Jó, a Rossz és a Csúf",
-        "votes": 733571
+        "votes": 733652
     },
     {
         "link": "https://www.imdb.com/title/tt0120737/",
+        "oscars": 4,
         "rank": 10,
         "rating": 8.8,
         "title": "A Gyűrűk Ura: A gyűrű szövetsége",
-        "votes": 1774113
+        "votes": 1774306
     },
     {
         "link": "https://www.imdb.com/title/tt0137523/",
+        "oscars": 0,
         "rank": 11,
         "rating": 8.7,
         "title": "Harcosok klubja",
-        "votes": 2000488
+        "votes": 2000782
     },
     {
         "link": "https://www.imdb.com/title/tt0109830/",
+        "oscars": 6,
         "rank": 12,
         "rating": 8.7,
         "title": "Forrest Gump",
-        "votes": 1961183
+        "votes": 1961461
     },
     {
         "link": "https://www.imdb.com/title/tt1375666/",
+        "oscars": 4,
         "rank": 13,
         "rating": 8.7,
         "title": "Eredet",
-        "votes": 2232462
+        "votes": 2232758
     },
     {
         "link": "https://www.imdb.com/title/tt0167261/",
+        "oscars": 2,
         "rank": 14,
         "rating": 8.7,
         "title": "A Gyűrűk Ura: A két torony",
-        "votes": 1583343
+        "votes": 1583509
     },
     {
         "link": "https://www.imdb.com/title/tt0080684/",
+        "oscars": 1,
         "rank": 15,
         "rating": 8.7,
         "title": "A Birodalom visszavág",
-        "votes": 1232573
+        "votes": 1232689
     },
     {
         "link": "https://www.imdb.com/title/tt0133093/",
+        "oscars": 4,
         "rank": 16,
         "rating": 8.7,
         "title": "Mátrix",
-        "votes": 1833949
+        "votes": 1834168
     },
     {
         "link": "https://www.imdb.com/title/tt0099685/",
+        "oscars": 1,
         "rank": 17,
         "rating": 8.6,
         "title": "Nagymenők",
-        "votes": 1098567
+        "votes": 1098717
     },
     {
         "link": "https://www.imdb.com/title/tt0073486/",
+        "oscars": 5,
         "rank": 18,
         "rating": 8.6,
         "title": "Száll a kakukk fészkére",
-        "votes": 972070
+        "votes": 972153
     },
     {
         "link": "https://www.imdb.com/title/tt0047478/",
+        "oscars": 0,
         "rank": 19,
         "rating": 8.6,
         "title": "A hét szamuráj",
-        "votes": 335340
+        "votes": 335370
     },
     {
         "link": "https://www.imdb.com/title/tt0114369/",
+        "oscars": 0,
         "rank": 20,
         "rating": 8.6,
         "title": "Hetedik",
-        "votes": 1558657
+        "votes": 1558847
     }
 ]
