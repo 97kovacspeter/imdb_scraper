@@ -83,10 +83,15 @@ class TestScraper(unittest.TestCase):
         self.assertAlmostEqual(len(movies), 20)
         for movie in movies:
             self.assertIsNotNone(movie['link'])
+            self.assertIsInstance(movie['link'], str)
             self.assertIsNotNone(movie['rating'])
+            self.assertIsInstance(movie['rating'], float)
             self.assertIsNotNone(movie['title'])
+            self.assertIsInstance(movie['title'], str)
             self.assertIsNotNone(movie['votes'])
+            self.assertIsInstance(movie['votes'], int)
             self.assertIsNotNone(movie['rank'])
+            self.assertIsInstance(movie['rank'], int)
 
     def test_added_oscars(self):
         movies = scr.scrape_top(20)
@@ -94,11 +99,17 @@ class TestScraper(unittest.TestCase):
         self.assertAlmostEqual(len(movies), 20)
         for movie in movies:
             self.assertIsNotNone(movie['link'])
+            self.assertIsInstance(movie['link'], str)
             self.assertIsNotNone(movie['rating'])
+            self.assertIsInstance(movie['rating'], float)
             self.assertIsNotNone(movie['title'])
+            self.assertIsInstance(movie['title'], str)
             self.assertIsNotNone(movie['votes'])
+            self.assertIsInstance(movie['votes'], int)
             self.assertIsNotNone(movie['rank'])
+            self.assertIsInstance(movie['rank'], int)
             self.assertIsNotNone(movie['oscars'])
+            self.assertIsInstance(movie['oscars'], int)
 
 
 if __name__ == '__main__':
