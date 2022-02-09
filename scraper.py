@@ -12,15 +12,15 @@ def scrape_top(num):
 
     movies = []
 
-    links = [IMDB + a.attrs.get('href')
+    links = [IMDB + a['href']
              for a in soup.select('td.titleColumn a', limit=num)]
     ratings = [strong.text
                for strong in soup.select('td.ratingColumn strong', limit=num)]
     titles = [a.text
               for a in soup.select('td.titleColumn a', limit=num)]
-    votes = [nv.attrs.get('data-value')
+    votes = [nv['data-value']
              for nv in soup.select('td.posterColumn span[name=nv]', limit=num)]
-    ranks = [rk.attrs.get('data-value')
+    ranks = [rk['data-value']
              for rk in soup.select('td.posterColumn span[name=rk]', limit=num)]
 
     for i in range(num):
