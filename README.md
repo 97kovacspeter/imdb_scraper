@@ -18,6 +18,8 @@ To run the tests choose imdb_unit_tests.py for execution.
 
 # Helper files
 
-The scraper.py contains functionalities to extract data from the imdb site.
+The scraper.py contains functionalities to extract data from the IMDB site.
 
 The rating_adjuster.py is responsible for reevaluation of the rankings based on the given rules.
+
+The filehandler.py writes the data provided into a json file in the root folder.
